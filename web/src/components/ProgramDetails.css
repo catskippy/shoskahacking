@@ -1,0 +1,55 @@
+.program-details {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.program-details h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.program-icon {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.program-details p {
+  margin-bottom: 20px;
+  white-space: pre-line;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 8px; /* Отступ снизу для кнопки */
+}
+
+.program-instructions {
+  margin-top: 20px; /* Отступ сверху для инструкций */
+}
+
+@media (max-width: 600px) {
+  .program-details {
+    padding: 10px; /* Уменьшение отступов внутри контейнера на мобильных устройствах */
+    width: 90%; /* Уменьшение ширины контейнера на мобильных устройствах */
+  }
+
+  .program-details h2 {
+    font-size: 20px; /* Уменьшение размера шрифта для заголовка на мобильных устройствах */
+  }
+
+  .download-button {
+    width: 100%; /* Кнопка занимает всю ширину контейнера на мобильных устройствах */
+    box-sizing: border-box; /* Включаем отступы и границы в ширину элемента */
+  }
+}
